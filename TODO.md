@@ -1,4 +1,5 @@
 # TODO
+
 ## Set up classes
  - [ ] Prototype
  - [ ] TilePrototype
@@ -6,9 +7,11 @@
  - [ ] Tile
  - [ ] Entity
  - [ ] Surface
+
 ## Add more prototypes
  - [ ] Tiles
  - [ ] Entities
+
 ## Add logic
  - [ ] Camera rendering
  - [ ] Menu
@@ -24,5 +27,6 @@
     - PVP
  - [ ] Terrain generation
  - [ ] Ensure determinism
+
 ## Graphics
  - [ ] Come up with graphics
