@@ -1,5 +1,8 @@
 # TODO
 
+ - Things here are planneed, but are not guaranteed to ever be released.
+ - When an item is completed, please put an `x` in the box. Don't delete it. This will help us if we decide to make a more permanent game.
+
 ## Set up classes
  - [ ] Prototype
  - [ ] TilePrototype
