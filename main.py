@@ -1,8 +1,14 @@
 # Imports
 
+# Base
 import sys, os
 os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "hide"
+
+# Installed
 import pygame
+
+# My modules
+import data
 
 
 # Constants
@@ -27,7 +33,7 @@ clock = pygame.time.Clock()
 
 # Main loop
 
-while pygame.time.get_ticks() < 10000:
+while pygame.time.get_ticks() < 3000:
     # Draw
 
     pygame.display.flip()
