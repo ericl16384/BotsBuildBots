@@ -7,8 +7,14 @@ os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "hide"
 # Installed
 import pygame
 
-# My modules
-import data
+# Util modules
+import graphics
+
+# Game modules
+import classes
+
+# Prototypes
+import prototypes
 
 
 # Constants
@@ -25,17 +31,31 @@ def endRuntime():
 
 # Setup
 
+# Pygame
 pygame.init()
 screen = pygame.display.set_mode((0, 0))
+screenSize = screen.get_rect()
+screenRatio = screenSize.w/screenSize.h
 pygame.display.set_caption(os.path.basename(__file__))
 clock = pygame.time.Clock()
+
+# Map
+map = classes.Surface()
+
+# Robot
+# map.createEntity()
 
 
 # Main loop
 
-while pygame.time.get_ticks() < 3000:
+while pygame.time.get_ticks() < 3000: #True:
     # Draw
 
+    #screen.fill(graphics.BLACK)
+    #screen.blit(map.render(
+    #    10,
+    #    10*screenRatio
+    #))
     pygame.display.flip()
 
 
