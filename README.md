@@ -13,7 +13,4 @@ The goal is to make a prototype game where the players create robot AIs that bui
 
 ## Play
  - Run (double click) main.py
- - Please note that at the time of writing, it is just a black screen for ten seconds. Please press ALT-F4 to close it.
-
-## TODO
- - There is a TODO file, but things in there are not guaranteed to ever be released
+ - Please note that at the time of writing, it is just a black screen for three seconds.
