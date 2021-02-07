@@ -8,7 +8,7 @@ os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "hide"
 import pygame
 
 # Util modules
-import graphics
+import colors
 
 # Game modules
 import classes
@@ -51,7 +51,7 @@ map = classes.Surface()
 while pygame.time.get_ticks() < 3000: #True:
     # Draw
 
-    #screen.fill(graphics.BLACK)
+    #screen.fill(colors.BLACK)
     #screen.blit(map.render(
     #    10,
     #    10*screenRatio
