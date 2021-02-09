@@ -26,36 +26,67 @@ FRAMES_PER_SECOND = 60
 
 def endRuntime():
     pygame.quit()
+    print("Game window deinitialized.")
     sys.exit()
 
 
 # Setup
-
-# Pygame
-pygame.init()
-screen = pygame.display.set_mode((0, 0))
-screenSize = screen.get_rect()
-screenRatio = screenSize.w/screenSize.h
-pygame.display.set_caption(os.path.basename(__file__))
-clock = pygame.time.Clock()
 
 # Map
 map = classes.Surface()
 
 # Robot
 # map.createEntity()
+robotPos = [0, 0]
+
+
+
+
+
+## Temporary
+
+#map.generateChunk((0, 0))
+
+#import json
+
+#for chunk in map.getGeneratedChunks().values():
+#    with open("dump.txt", "w") as f:
+#        print(json.dumps(chunk, indent=4), file=f)
+
+
+
+
+
+
+
+
+
+
+#endRuntime()
+
+
+# Start Pygame
+
+pygame.init()
+
+# https://www.pygame.org/docs/ref/display.html
+screen = pygame.display.set_mode((0, 0))
+pygame.display.set_caption("Bots Build Bots") #os.path.basename(__file__))
+#pygame.display.set_icon(icon)
+
+print("Game window initialized.")
+
+screenSize = screen.get_rect()
+clock = pygame.time.Clock()
 
 
 # Main loop
 
-while pygame.time.get_ticks() < 3000: #True:
+while pygame.time.get_ticks() < 10000: #True:
     # Draw
 
-    #screen.fill(colors.BLACK)
-    #screen.blit(map.render(
-    #    10,
-    #    10*screenRatio
-    #))
+    screen.fill(colors.BLACK)
+    #screen.blit(map.render(robotPos, 20, screenSize))
     pygame.display.flip()
 
 

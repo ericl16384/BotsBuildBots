@@ -1,5 +1,4 @@
 # TODO
-
  - Things here are planneed, but are not guaranteed to ever be released.
  - When an item is completed, please put an `x` in the box. Don't delete it. This will help us if we decide to make a more permanent game.
 
@@ -11,10 +10,6 @@
  - [ ] Entity
  - [ ] Surface
 
-## Add more prototypes
- - [ ] Tiles
- - [ ] Entities
-
 ## Add logic
  - [ ] Camera rendering
  - [ ] Menu
@@ -23,13 +18,20 @@
  - [ ] Savegames
     - [ ] Chunks
     - [ ] Result is identical to origional game
- - [ ] Automatic updates
-    - Will it check the [respository](https://github.com/ericl16384/BotsBuildBots/archive/main.zip), or a website?
  - [ ] Set up combat
     - PVE
     - PVP
- - [ ] Terrain generation
- - [ ] Ensure determinism
+ - Terrain generation
+
+## Add prototypes
+ - Tiles
+ - Entities
 
 ## Graphics
- - [ ] Come up with graphics
+ - Come up with graphics
+
+## Determinism
+ - Make testcases
+
+## Docs
+ - Make API documentation
