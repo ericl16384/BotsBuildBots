@@ -29,7 +29,7 @@
 
 ## Graphics
  - Come up with graphics
- - Improve Eric's bad "art"
+ - Improve Eric's "art"
 
 ## Determinism
  - Make testcases
